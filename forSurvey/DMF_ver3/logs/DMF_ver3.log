@@ -1,0 +1,1315 @@
+2023-08-14 17:10:38,106 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:10:59,605 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:11:00,148 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:11:00,716 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:11:10,064 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:11:10,603 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:11:16,958 [ERROR] django.request: Internal Server Error: /forAdmin/getCnt_PPG/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 300, in getCnt_PPG
+    logging.INFO("test logging")
+TypeError: 'int' object is not callable
+2023-08-14 17:11:16,958 [ERROR] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 500 17650
+2023-08-14 17:11:30,271 [ERROR] django.request: Internal Server Error: /forAdmin/getCnt_PPG/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 300, in getCnt_PPG
+    logging.INFO("test logging")
+TypeError: 'int' object is not callable
+2023-08-14 17:11:30,272 [ERROR] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 500 17650
+2023-08-14 17:11:40,085 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:11:41,004 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:11:44,383 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:12:16,728 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/DMF_ver3/settings.py changed, reloading.
+2023-08-14 17:12:42,169 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:12:45,806 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:13:33,335 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:13:33,938 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:13:37,892 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:13:47,978 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:13:48,488 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:13:54,273 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:14:59,220 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:14:59,775 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:15:04,537 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:15:09,388 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:16:18,687 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:16:19,350 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:16:24,083 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:16:24,594 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:16:28,371 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:16:39,233 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:17:18,933 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:17:19,504 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:17:26,551 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:19:40,342 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/DMF_ver3/settings.py changed, reloading.
+2023-08-14 17:19:40,907 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:19:47,119 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:19:54,933 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/DMF_ver3/settings.py changed, reloading.
+2023-08-14 17:20:23,481 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:20:27,639 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:20:47,901 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/DMF_ver3/settings.py changed, reloading.
+2023-08-14 17:20:48,522 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:20:55,281 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/DMF_ver3/settings.py changed, reloading.
+2023-08-14 17:20:55,796 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:21:01,645 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 17:21:01,671 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:21:38,734 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/DMF_ver3/settings.py changed, reloading.
+2023-08-14 17:21:39,292 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:28:01,104 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 17:28:01,130 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:28:34,778 [INFO] forAdmin.views: ExperimentCode : gachon_test
+2023-08-14 17:28:34,811 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=gachon_test HTTP/1.1" 200 77
+2023-08-14 17:29:43,061 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/DMF_ver3/settings.py changed, reloading.
+2023-08-14 17:29:43,599 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:30:03,853 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 17:30:03,879 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:30:18,089 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:30:18,626 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:30:20,550 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:30:25,458 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:30:31,728 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py changed, reloading.
+2023-08-14 17:30:32,300 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:30:37,094 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 17:30:37,119 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 17:30:47,376 [INFO] django.utils.autoreload: /home/hyuk/forSurvey/DMF_ver3/DMF_ver3/settings.py changed, reloading.
+2023-08-14 17:30:47,900 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-14 17:30:49,955 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 17:30:49,980 [INFO] django.server: "GET /forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 19:36:36,183 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 19:36:36,208 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-14 19:37:34,070 [INFO] django.server: "GET /forUser/registUser/?userID=test_J&deviceID=123456&regID=1234567&timestamp=2023-08-14 HTTP/1.1" 200 26
+2023-08-14 19:38:56,841 [INFO] django.server: "GET /forUser/registUser/?userID=test_J&deviceID=0000110a-0000-1000-8000-00805f9b34fb&regID=1234567&timestamp=2023-08-14 HTTP/1.1" 200 26
+2023-08-14 19:39:52,125 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:39:52,125 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:41:22,231 [INFO] django.server: "GET /forUser/registUser/?userID=test_J&deviceID=0000110a-0000-1000-8000-00805f9b34fb&regID=1234567&timestamp=2023-08-14 HTTP/1.1" 200 26
+2023-08-14 19:42:15,722 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:42:21,596 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:43:14,424 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:43:14,424 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:44:17,375 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:44:45,654 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:44:49,515 [INFO] django.server: - Broken pipe from ('222.232.141.50', 57040)
+
+2023-08-14 19:45:24,769 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:46:17,697 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:46:22,442 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:47:12,494 [INFO] django.server: "GET //forAdmin/getBatteryData/?experimentCode=Gachon_test HTTP/1.1" 200 692
+2023-08-14 19:47:14,272 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:47:14,279 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:47:44,267 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 19:47:44,298 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 879
+2023-08-14 19:47:50,392 [INFO] django.server: "GET //forAdmin/getBatteryData/?experimentCode=Gachon_test HTTP/1.1" 200 692
+2023-08-14 19:48:14,270 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:48:14,274 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:49:14,258 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:49:14,258 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:50:14,244 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:50:14,257 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:51:14,234 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:51:14,237 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:52:14,241 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:52:14,242 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:53:14,208 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:53:14,217 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 19:54:14,184 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-14 19:54:14,197 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-14 21:51:38,050 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 21:51:38,076 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 942
+2023-08-14 21:51:42,920 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 21:51:42,957 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 942
+2023-08-14 21:51:46,633 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-14 21:51:46,673 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 942
+2023-08-14 21:52:26,446 [INFO] django.server: "GET //forAdmin/getBatteryData/?experimentCode=Gachon_test HTTP/1.1" 200 692
+2023-08-14 22:57:40,885 [WARNING] django.request: Not Found: /
+2023-08-14 22:57:40,885 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-15 07:45:49,271 [INFO] django.server: code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-08-15 07:45:49,271 [WARNING] django.server: "  /*à     Cookie: mstshash=Administr" 400 -
+2023-08-15 22:39:49,738 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-15 22:39:49,770 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-15 22:39:56,315 [INFO] django.server: "GET //forAdmin/getBatteryData/?experimentCode=Gachon_test HTTP/1.1" 200 692
+2023-08-16 22:19:10,004 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 22:19:10,025 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 22:19:46,056 [INFO] django.server: "GET /forUser/registUser/?userID=test_H&deviceID=123456&regID=1234567&timestamp=2023-08-16 HTTP/1.1" 200 26
+2023-08-16 22:25:52,069 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:25:52,083 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:26:51,933 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:26:51,935 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:27:32,957 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 22:27:32,978 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 22:27:45,268 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 22:27:45,300 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 22:27:46,371 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 22:27:46,415 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 22:27:47,501 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 22:27:47,535 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 22:27:51,943 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:27:51,949 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:28:51,976 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:28:51,976 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:29:51,971 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:29:51,972 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:30:52,019 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:30:52,028 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:31:52,218 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:31:52,218 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:32:52,056 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:32:52,056 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:33:51,964 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:33:51,964 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:34:52,069 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:34:52,084 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:35:52,019 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:35:52,020 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:36:52,040 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:36:52,047 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:37:52,009 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:37:52,015 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:38:52,024 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:38:52,030 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:39:51,978 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:39:51,980 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:40:52,026 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:40:52,040 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:41:52,030 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:41:52,043 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:42:52,039 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:42:52,048 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:43:52,030 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:43:52,041 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:44:51,986 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:44:51,987 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:45:52,064 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:45:52,079 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:46:52,019 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:46:52,031 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:47:51,971 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:47:51,974 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:48:52,050 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:48:52,058 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:49:52,033 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:49:52,060 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:50:52,035 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:50:52,036 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:51:52,044 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:51:52,049 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:52:51,998 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:52:52,001 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:53:52,045 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:53:52,052 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:54:52,081 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:54:52,089 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:55:52,021 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:55:52,029 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:56:52,053 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:56:52,055 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:57:51,984 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:57:51,993 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:58:52,068 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:58:52,076 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 22:59:52,076 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 22:59:52,085 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:00:52,018 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:00:52,028 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:01:52,082 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:01:52,082 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:02:52,022 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:02:52,025 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:03:52,043 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:03:52,050 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:04:52,102 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:04:52,112 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:05:52,041 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:05:52,042 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:06:52,092 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:06:52,120 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:06:55,838 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 23:06:55,858 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 23:07:19,385 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 23:07:19,404 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 23:07:20,507 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 23:07:20,540 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 23:07:21,463 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 23:07:21,496 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 23:07:52,101 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:07:52,117 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:08:52,402 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:08:52,403 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:09:52,085 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:09:52,087 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:10:52,088 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:10:52,089 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:11:52,050 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:11:52,050 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:12:52,083 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:12:52,087 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:13:52,088 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:13:52,094 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:14:52,158 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:14:52,158 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:15:52,138 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:15:52,148 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:16:52,077 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:16:52,078 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:17:52,110 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:17:52,111 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:18:52,145 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:18:52,148 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:19:52,112 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:19:52,112 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:20:52,116 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:20:52,116 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:21:52,130 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:21:52,130 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:22:52,187 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:22:52,195 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:23:52,143 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:23:52,144 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:24:52,144 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:24:52,145 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:25:52,130 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:25:52,132 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:26:52,161 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:26:52,163 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:27:52,139 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:27:52,139 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:28:52,213 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:28:52,213 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:29:52,140 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:29:52,141 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:30:52,227 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:30:52,228 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:31:52,160 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:31:52,160 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:32:52,166 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:32:52,168 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:33:52,120 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:33:52,120 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:34:52,191 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:34:52,200 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:35:52,156 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:35:52,156 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:36:52,196 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:36:52,196 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:37:52,185 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:37:52,188 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:38:52,211 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:38:52,211 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:39:52,189 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:39:52,189 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:40:52,192 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:40:52,193 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:41:52,207 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:41:52,209 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:42:52,287 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:42:52,289 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:43:52,237 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:43:52,238 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:44:52,257 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:44:52,257 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:45:52,232 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:45:52,234 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:46:52,180 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:46:52,185 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:47:52,222 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:47:52,223 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:48:52,251 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:48:52,251 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:49:52,245 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:49:52,247 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:50:52,270 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:50:52,274 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:51:52,272 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:51:52,273 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:52:52,280 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:52:52,283 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:53:52,281 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:53:52,281 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:54:52,290 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:54:52,292 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:55:52,311 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:55:52,312 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:56:52,242 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:56:52,244 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:57:52,268 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:57:52,268 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:58:52,160 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-16 23:58:52,160 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:58:53,190 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 23:58:53,209 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 23:59:03,555 [INFO] django.server: "GET /forUser/registUser/?userID=test_H&deviceID=123456&regID=1234567&timestamp=2023-08-16 HTTP/1.1" 200 26
+2023-08-16 23:59:28,903 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 23:59:28,920 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 23:59:37,722 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 23:59:37,755 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 23:59:37,943 [INFO] forAdmin.views: ExperimentCode : test_H
+2023-08-16 23:59:37,976 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=test_H HTTP/1.1" 200 72
+2023-08-16 23:59:38,712 [INFO] django.server: "GET //forAdmin/getBatteryData/?experimentCode=test_H HTTP/1.1" 200 47
+2023-08-16 23:59:52,303 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-16 23:59:52,305 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-17 00:00:55,293 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-17 00:00:55,293 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-17 00:01:10,128 [INFO] django.server: "GET /forUser/registUser/?userID=test_H&deviceID=123456&regID=1234567&timestamp=2023-08-17 HTTP/1.1" 200 26
+2023-08-17 13:27:46,491 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-18 03:22:13,345 [WARNING] django.request: Not Found: /
+2023-08-18 03:22:13,346 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-18 07:42:28,194 [INFO] django.server: code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-08-18 07:42:28,195 [WARNING] django.server: "  /*à     Cookie: mstshash=Administr" 400 -
+2023-08-18 15:24:00,696 [WARNING] django.request: Not Found: /
+2023-08-18 15:24:00,698 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-18 15:24:23,885 [WARNING] django.request: Not Found: /
+2023-08-18 15:24:23,886 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-18 15:24:24,070 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-18 15:24:24,070 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2626
+2023-08-18 15:26:23,831 [INFO] django.server: code 400, message Bad request version ('À\x13À')
+2023-08-18 15:26:23,832 [ERROR] django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2023-08-18 15:26:55,975 [INFO] django.server: code 400, message Bad request version ('À\x13À')
+2023-08-18 15:26:55,976 [ERROR] django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2023-08-18 15:27:03,957 [INFO] django.server: code 400, message Bad request version ('À\x13À')
+2023-08-18 15:27:03,958 [ERROR] django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2023-08-18 16:00:42,463 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-18 16:00:42,666 [INFO] django.server: "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2023-08-18 16:00:42,697 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+2023-08-18 16:00:42,723 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+2023-08-18 16:00:42,728 [INFO] django.server: "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2023-08-18 16:00:42,762 [INFO] django.server: "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2023-08-18 16:00:42,781 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+2023-08-18 16:00:42,796 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+2023-08-18 16:00:42,961 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-18 16:00:43,795 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-18 16:00:45,067 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-18 16:00:45,161 [WARNING] django.request: Not Found: /css/jquery-ui.css
+2023-08-18 16:00:45,168 [WARNING] django.server: "GET /css/jquery-ui.css HTTP/1.1" 404 2644
+2023-08-18 16:00:45,176 [WARNING] django.request: Not Found: /css/common.css
+2023-08-18 16:00:45,177 [WARNING] django.server: "GET /css/common.css HTTP/1.1" 404 2635
+2023-08-18 16:00:45,179 [WARNING] django.request: Not Found: /css/font.css
+2023-08-18 16:00:45,180 [WARNING] django.server: "GET /css/font.css HTTP/1.1" 404 2629
+2023-08-18 16:00:45,194 [WARNING] django.request: Not Found: /css/sub_common.css
+2023-08-18 16:00:45,196 [WARNING] django.request: Not Found: /css/sub.css
+2023-08-18 16:00:45,199 [WARNING] django.request: Not Found: /css/mediaquery.css
+2023-08-18 16:00:45,200 [WARNING] django.server: "GET /css/sub_common.css HTTP/1.1" 404 2647
+2023-08-18 16:00:45,200 [WARNING] django.server: "GET /css/sub.css HTTP/1.1" 404 2626
+2023-08-18 16:00:45,200 [WARNING] django.server: "GET /css/mediaquery.css HTTP/1.1" 404 2647
+2023-08-18 16:00:45,207 [WARNING] django.request: Not Found: /css/sub_mediaquery.css
+2023-08-18 16:00:45,207 [WARNING] django.server: "GET /css/sub_mediaquery.css HTTP/1.1" 404 2659
+2023-08-18 16:00:45,214 [WARNING] django.request: Not Found: /js/drprivacy/jquery-1.7.1.min.js
+2023-08-18 16:00:45,216 [WARNING] django.server: "GET /js/drprivacy/jquery-1.7.1.min.js HTTP/1.1" 404 2689
+2023-08-18 16:00:45,219 [WARNING] django.request: Not Found: /js/drprivacy/jquery-ui.min.js
+2023-08-18 16:00:45,219 [WARNING] django.server: "GET /js/drprivacy/jquery-ui.min.js HTTP/1.1" 404 2680
+2023-08-18 16:00:45,242 [WARNING] django.request: Not Found: /js/searchDtPop.js
+2023-08-18 16:00:45,244 [WARNING] django.request: Not Found: /js/ui.js
+2023-08-18 16:00:45,248 [WARNING] django.request: Not Found: /js/common.js
+2023-08-18 16:00:45,248 [WARNING] django.server: "GET /js/ui.js HTTP/1.1" 404 2617
+2023-08-18 16:00:45,248 [WARNING] django.server: "GET /js/searchDtPop.js HTTP/1.1" 404 2644
+2023-08-18 16:00:45,249 [WARNING] django.server: "GET /js/common.js HTTP/1.1" 404 2629
+2023-08-18 16:00:45,343 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-18 16:00:45,344 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2626
+2023-08-18 16:03:01,462 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-18 16:03:01,737 [WARNING] django.request: Not Found: /css/font.css
+2023-08-18 16:03:01,740 [WARNING] django.request: Not Found: /css/jquery-ui.css
+2023-08-18 16:03:01,741 [WARNING] django.server: "GET /css/font.css HTTP/1.1" 404 2629
+2023-08-18 16:03:01,741 [WARNING] django.server: "GET /css/jquery-ui.css HTTP/1.1" 404 2644
+2023-08-18 16:03:01,837 [WARNING] django.request: Not Found: /css/sub_common.css
+2023-08-18 16:03:01,843 [WARNING] django.request: Not Found: /css/common.css
+2023-08-18 16:03:01,844 [WARNING] django.server: "GET /css/sub_common.css HTTP/1.1" 404 2647
+2023-08-18 16:03:01,844 [WARNING] django.server: "GET /css/common.css HTTP/1.1" 404 2635
+2023-08-18 16:03:01,853 [WARNING] django.request: Not Found: /css/sub.css
+2023-08-18 16:03:01,854 [WARNING] django.server: "GET /css/sub.css HTTP/1.1" 404 2626
+2023-08-18 16:03:01,897 [WARNING] django.request: Not Found: /css/mediaquery.css
+2023-08-18 16:03:01,897 [WARNING] django.server: "GET /css/mediaquery.css HTTP/1.1" 404 2647
+2023-08-18 16:03:01,908 [WARNING] django.request: Not Found: /js/drprivacy/jquery-1.7.1.min.js
+2023-08-18 16:03:01,910 [WARNING] django.request: Not Found: /css/sub_mediaquery.css
+2023-08-18 16:03:01,910 [WARNING] django.server: "GET /css/sub_mediaquery.css HTTP/1.1" 404 2659
+2023-08-18 16:03:01,910 [WARNING] django.server: "GET /js/drprivacy/jquery-1.7.1.min.js HTTP/1.1" 404 2689
+2023-08-18 16:03:01,948 [WARNING] django.request: Not Found: /js/drprivacy/jquery-ui.min.js
+2023-08-18 16:03:01,948 [WARNING] django.server: "GET /js/drprivacy/jquery-ui.min.js HTTP/1.1" 404 2680
+2023-08-18 16:03:01,968 [WARNING] django.request: Not Found: /js/common.js
+2023-08-18 16:03:01,970 [WARNING] django.request: Not Found: /js/searchDtPop.js
+2023-08-18 16:03:01,970 [WARNING] django.server: "GET /js/common.js HTTP/1.1" 404 2629
+2023-08-18 16:03:01,970 [WARNING] django.server: "GET /js/searchDtPop.js HTTP/1.1" 404 2644
+2023-08-18 16:03:01,999 [WARNING] django.request: Not Found: /js/ui.js
+2023-08-18 16:03:01,999 [WARNING] django.server: "GET /js/ui.js HTTP/1.1" 404 2617
+2023-08-18 16:03:02,286 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-18 16:03:02,286 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2626
+2023-08-18 16:06:18,658 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-18 16:06:29,329 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-18 16:06:29,448 [WARNING] django.request: Not Found: /css/jquery-ui.css
+2023-08-18 16:06:29,450 [WARNING] django.request: Not Found: /css/font.css
+2023-08-18 16:06:29,451 [WARNING] django.server: "GET /css/jquery-ui.css HTTP/1.1" 404 2644
+2023-08-18 16:06:29,451 [WARNING] django.server: "GET /css/font.css HTTP/1.1" 404 2629
+2023-08-18 16:06:29,470 [WARNING] django.request: Not Found: /css/sub.css
+2023-08-18 16:06:29,475 [WARNING] django.request: Not Found: /css/common.css
+2023-08-18 16:06:29,476 [WARNING] django.server: "GET /css/sub.css HTTP/1.1" 404 2626
+2023-08-18 16:06:29,478 [WARNING] django.server: "GET /css/common.css HTTP/1.1" 404 2635
+2023-08-18 16:06:29,481 [WARNING] django.request: Not Found: /css/sub_common.css
+2023-08-18 16:06:29,485 [WARNING] django.request: Not Found: /css/mediaquery.css
+2023-08-18 16:06:29,486 [WARNING] django.server: "GET /css/sub_common.css HTTP/1.1" 404 2647
+2023-08-18 16:06:29,486 [WARNING] django.server: "GET /css/mediaquery.css HTTP/1.1" 404 2647
+2023-08-18 16:06:29,502 [WARNING] django.request: Not Found: /css/sub_mediaquery.css
+2023-08-18 16:06:29,502 [WARNING] django.server: "GET /css/sub_mediaquery.css HTTP/1.1" 404 2659
+2023-08-18 16:06:29,524 [WARNING] django.request: Not Found: /js/drprivacy/jquery-1.7.1.min.js
+2023-08-18 16:06:29,525 [WARNING] django.server: "GET /js/drprivacy/jquery-1.7.1.min.js HTTP/1.1" 404 2689
+2023-08-18 16:06:29,535 [WARNING] django.request: Not Found: /js/drprivacy/jquery-ui.min.js
+2023-08-18 16:06:29,537 [WARNING] django.server: "GET /js/drprivacy/jquery-ui.min.js HTTP/1.1" 404 2680
+2023-08-18 16:06:29,540 [WARNING] django.request: Not Found: /js/searchDtPop.js
+2023-08-18 16:06:29,543 [WARNING] django.server: "GET /js/searchDtPop.js HTTP/1.1" 404 2644
+2023-08-18 16:06:29,546 [WARNING] django.request: Not Found: /js/common.js
+2023-08-18 16:06:29,547 [WARNING] django.server: "GET /js/common.js HTTP/1.1" 404 2629
+2023-08-18 16:06:29,555 [WARNING] django.request: Not Found: /js/ui.js
+2023-08-18 16:06:29,555 [WARNING] django.server: "GET /js/ui.js HTTP/1.1" 404 2617
+2023-08-18 16:06:29,811 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-18 16:06:29,811 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2626
+2023-08-18 16:06:32,669 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-18 16:06:32,716 [WARNING] django.request: Not Found: /css/jquery-ui.css
+2023-08-18 16:06:32,717 [WARNING] django.server: "GET /css/jquery-ui.css HTTP/1.1" 404 2644
+2023-08-18 16:06:32,755 [WARNING] django.request: Not Found: /css/font.css
+2023-08-18 16:06:32,759 [WARNING] django.request: Not Found: /css/common.css
+2023-08-18 16:06:32,759 [WARNING] django.server: "GET /css/font.css HTTP/1.1" 404 2629
+2023-08-18 16:06:32,760 [WARNING] django.server: "GET /css/common.css HTTP/1.1" 404 2635
+2023-08-18 16:06:32,765 [WARNING] django.request: Not Found: /css/sub_common.css
+2023-08-18 16:06:32,765 [WARNING] django.server: "GET /css/sub_common.css HTTP/1.1" 404 2647
+2023-08-18 16:06:32,807 [WARNING] django.request: Not Found: /css/sub.css
+2023-08-18 16:06:32,808 [WARNING] django.server: "GET /css/sub.css HTTP/1.1" 404 2626
+2023-08-18 16:06:32,818 [WARNING] django.request: Not Found: /css/mediaquery.css
+2023-08-18 16:06:32,819 [WARNING] django.server: "GET /css/mediaquery.css HTTP/1.1" 404 2647
+2023-08-18 16:06:32,823 [WARNING] django.request: Not Found: /css/sub_mediaquery.css
+2023-08-18 16:06:32,825 [WARNING] django.server: "GET /css/sub_mediaquery.css HTTP/1.1" 404 2659
+2023-08-18 16:06:32,829 [WARNING] django.request: Not Found: /js/drprivacy/jquery-1.7.1.min.js
+2023-08-18 16:06:32,833 [WARNING] django.server: "GET /js/drprivacy/jquery-1.7.1.min.js HTTP/1.1" 404 2689
+2023-08-18 16:06:32,834 [WARNING] django.request: Not Found: /js/drprivacy/jquery-ui.min.js
+2023-08-18 16:06:32,835 [WARNING] django.server: "GET /js/drprivacy/jquery-ui.min.js HTTP/1.1" 404 2680
+2023-08-18 16:06:32,868 [WARNING] django.request: Not Found: /js/searchDtPop.js
+2023-08-18 16:06:32,869 [WARNING] django.server: "GET /js/searchDtPop.js HTTP/1.1" 404 2644
+2023-08-18 16:06:32,873 [WARNING] django.request: Not Found: /js/common.js
+2023-08-18 16:06:32,874 [WARNING] django.server: "GET /js/common.js HTTP/1.1" 404 2629
+2023-08-18 16:06:32,879 [WARNING] django.request: Not Found: /js/ui.js
+2023-08-18 16:06:32,879 [WARNING] django.server: "GET /js/ui.js HTTP/1.1" 404 2617
+2023-08-19 15:34:17,680 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-19 15:34:17,855 [INFO] django.server: "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+2023-08-19 15:34:17,889 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+2023-08-19 15:34:17,889 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+2023-08-19 15:34:17,947 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+2023-08-19 15:34:17,982 [INFO] django.server: "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+2023-08-19 15:34:18,046 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+2023-08-19 15:34:18,047 [INFO] django.server: "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+2023-08-19 15:34:18,339 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-19 15:34:19,216 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-19 16:47:25,053 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-19 16:47:25,656 [INFO] django.server: "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2023-08-19 16:47:26,095 [INFO] django.server: "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2023-08-19 16:47:26,675 [INFO] django.server: "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2023-08-19 16:47:28,345 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+2023-08-19 16:47:28,354 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+2023-08-19 16:47:33,138 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+2023-08-19 16:47:39,434 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+2023-08-19 16:47:43,962 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-19 16:47:44,007 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2023-08-19 16:47:49,655 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-19 17:20:32,062 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-19 17:20:32,711 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-19 17:20:32,763 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2023-08-19 17:20:33,586 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-21 08:52:49,274 [WARNING] django.request: Not Found: /
+2023-08-21 08:52:49,275 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-21 15:02:43,604 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-21 15:02:46,786 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-21 15:02:47,697 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-21 17:22:06,692 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-21 17:22:06,730 [INFO] django.server: "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2023-08-21 17:22:06,751 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+2023-08-21 17:22:06,773 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+2023-08-21 17:22:06,773 [INFO] django.server: "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2023-08-21 17:22:06,773 [INFO] django.server: "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2023-08-21 17:22:06,793 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+2023-08-21 17:22:06,847 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+2023-08-21 17:22:06,978 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-21 17:22:06,983 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2023-08-21 17:22:07,840 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-21 17:22:18,113 [INFO] django.server: "GET /forAdmin/getSurveyRecord/?experimentCode=knu_test HTTP/1.1" 200 4750
+2023-08-22 05:47:05,798 [INFO] django.server: code 400, message Bad request syntax ('Terraria01')
+2023-08-22 05:47:05,799 [WARNING] django.server: "Terraria01" 400 -
+2023-08-22 05:47:06,088 [WARNING] django.request: Not Found: /
+2023-08-22 05:47:06,088 [WARNING] django.server: "GET / HTTP/1.0" 404 2570
+2023-08-22 05:47:06,697 [WARNING] django.request: Not Found: /
+2023-08-22 05:47:06,697 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-22 05:47:07,300 [WARNING] django.request: Not Found: /sitemap.xml
+2023-08-22 05:47:07,300 [WARNING] django.server: "GET /sitemap.xml HTTP/1.1" 404 2626
+2023-08-22 05:47:07,306 [WARNING] django.request: Not Found: /robots.txt
+2023-08-22 05:47:07,309 [WARNING] django.server: "GET /robots.txt HTTP/1.1" 404 2623
+2023-08-23 00:19:14,610 [INFO] django.server: code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-08-23 00:19:14,610 [WARNING] django.server: "  /*à     Cookie: mstshash=Administr" 400 -
+2023-08-23 01:54:30,228 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-23 01:54:30,255 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-23 01:56:29,347 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-23 01:56:29,378 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-23 01:58:35,841 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-23 01:58:35,865 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-23 02:21:58,123 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-23 02:21:58,148 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-23 05:27:36,689 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-23 05:27:36,714 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-23 15:04:21,490 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-23 15:05:48,379 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-23 15:05:48,399 [INFO] django.server: "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2023-08-23 15:05:48,432 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+2023-08-23 15:05:48,497 [INFO] django.server: "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2023-08-23 15:05:48,565 [INFO] django.server: "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2023-08-23 15:05:48,569 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+2023-08-23 15:05:48,572 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+2023-08-23 15:05:48,614 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+2023-08-23 15:05:48,727 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-23 15:05:48,945 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2023-08-23 15:05:49,518 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-23 15:05:50,973 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-23 15:05:51,155 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-23 15:05:51,554 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-23 15:07:10,929 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-23 15:07:11,188 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-23 15:07:12,011 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-23 21:32:08,803 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=0000110a-0000-1000-8000-00805f9b34fb&regID=1234567&timestamp=2023-08-23 HTTP/1.1" 200 28
+2023-08-23 21:37:24,831 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:37:24,831 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:38:24,750 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:38:24,758 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:39:24,759 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:39:24,770 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:40:24,813 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:40:24,828 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:41:24,796 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:41:24,807 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:42:24,754 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:42:24,769 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:43:24,753 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:43:24,758 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:44:59,296 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:44:59,307 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:54:38,164 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:54:38,177 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:55:38,181 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 21:55:38,196 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 21:59:27,756 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48628)
+
+2023-08-23 21:59:27,757 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48626)
+
+2023-08-23 21:59:27,757 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48630)
+
+2023-08-23 21:59:27,758 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48632)
+
+2023-08-23 22:11:10,118 [WARNING] django.request: Not Found: /
+2023-08-23 22:11:10,118 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-23 23:12:27,469 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:12:27,471 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:13:27,497 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:13:27,506 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:14:27,494 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:14:27,502 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:15:27,477 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:15:27,486 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:16:27,519 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:16:27,536 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:17:27,524 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:17:27,535 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:18:27,481 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:18:27,490 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:19:27,525 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:19:27,529 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:20:27,532 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:20:27,550 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:21:27,532 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:21:27,543 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:22:27,552 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:22:27,554 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:23:27,536 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:23:27,542 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:24:27,546 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:24:27,578 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:25:27,521 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:25:27,555 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:26:27,548 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:26:27,562 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:27:27,530 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:27:27,536 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:28:27,565 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:28:27,569 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:29:27,550 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:29:27,571 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:30:27,590 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:30:27,595 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:31:27,609 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:31:27,611 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:32:27,553 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:32:27,565 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:33:27,566 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:33:27,582 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:34:27,630 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:34:27,632 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:35:27,585 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:35:27,595 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:36:27,557 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:36:27,569 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:37:27,606 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:37:27,612 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:38:27,594 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:38:27,606 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:39:27,563 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:39:27,577 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:40:27,570 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:40:27,588 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:41:27,570 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:41:27,577 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:42:27,604 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:42:27,623 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:43:27,612 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:43:27,615 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:44:27,633 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:44:27,655 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:45:27,616 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:45:27,627 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:46:27,597 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:46:27,601 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:47:27,698 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:47:27,699 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-23 23:56:32,825 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-23 23:56:32,827 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-24 00:07:56,939 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-24 00:07:56,951 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-24 00:12:45,478 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48914)
+
+2023-08-24 00:12:45,479 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48922)
+
+2023-08-24 00:12:45,480 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48916)
+
+2023-08-24 00:12:45,480 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48920)
+
+2023-08-24 00:12:45,480 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48904)
+
+2023-08-24 00:12:45,480 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48912)
+
+2023-08-24 00:12:45,480 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48898)
+
+2023-08-24 00:12:45,483 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48902)
+
+2023-08-24 00:12:45,483 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48900)
+
+2023-08-24 00:12:45,483 [INFO] django.server: - Broken pipe from ('117.123.60.63', 48910)
+
+2023-08-24 07:49:46,206 [INFO] django.server: - Broken pipe from ('167.94.146.60', 46660)
+
+2023-08-24 07:49:46,514 [INFO] django.server: code 400, message Bad request version ('À\x14À')
+2023-08-24 07:49:46,515 [ERROR] django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2023-08-24 07:49:48,121 [WARNING] django.request: Not Found: /
+2023-08-24 07:49:48,122 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-24 07:49:48,414 [INFO] django.server: - Broken pipe from ('167.94.146.60', 55992)
+
+2023-08-24 07:49:48,719 [WARNING] django.request: Not Found: /
+2023-08-24 07:49:48,719 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-24 07:49:49,597 [INFO] django.server: code 505, message Invalid HTTP version (2.0)
+2023-08-24 07:49:49,597 [ERROR] django.server: "PRI * HTTP/2.0" 505 -
+2023-08-24 14:41:15,513 [WARNING] django.request: Unauthorized: /forUser/registUser/
+2023-08-24 14:41:15,514 [WARNING] django.server: "GET /forUser/registUser/?userID=gc_test&deviceID=&regID=1234567&timestamp=2023-08-24 HTTP/1.1" 401 19
+2023-08-24 14:41:17,673 [WARNING] django.request: Unauthorized: /forUser/registUser/
+2023-08-24 14:41:17,674 [WARNING] django.server: "GET /forUser/registUser/?userID=gc_test&deviceID=&regID=1234567&timestamp=2023-08-24 HTTP/1.1" 401 19
+2023-08-24 14:41:23,115 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=&regID=1234567&timestamp=2023-08-24 HTTP/1.1" 200 28
+2023-08-24 14:41:32,664 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=&regID=1234567&timestamp=2023-08-24 HTTP/1.1" 200 28
+2023-08-24 14:42:33,189 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-24 14:42:33,347 [WARNING] django.request: Not Found: /css/font.css
+2023-08-24 14:42:33,349 [WARNING] django.request: Not Found: /css/jquery-ui.css
+2023-08-24 14:42:33,350 [WARNING] django.server: "GET /css/font.css HTTP/1.1" 404 2629
+2023-08-24 14:42:33,350 [WARNING] django.server: "GET /css/jquery-ui.css HTTP/1.1" 404 2644
+2023-08-24 14:42:33,602 [WARNING] django.request: Not Found: /css/common.css
+2023-08-24 14:42:33,604 [WARNING] django.server: "GET /css/common.css HTTP/1.1" 404 2635
+2023-08-24 14:42:33,610 [WARNING] django.request: Not Found: /css/sub.css
+2023-08-24 14:42:33,615 [WARNING] django.request: Not Found: /js/drprivacy/jquery-1.7.1.min.js
+2023-08-24 14:42:33,616 [WARNING] django.server: "GET /css/sub.css HTTP/1.1" 404 2626
+2023-08-24 14:42:33,617 [WARNING] django.request: Not Found: /css/sub_common.css
+2023-08-24 14:42:33,623 [WARNING] django.request: Not Found: /css/sub_mediaquery.css
+2023-08-24 14:42:33,624 [WARNING] django.server: "GET /css/sub_common.css HTTP/1.1" 404 2647
+2023-08-24 14:42:33,624 [WARNING] django.server: "GET /js/drprivacy/jquery-1.7.1.min.js HTTP/1.1" 404 2689
+2023-08-24 14:42:33,626 [WARNING] django.request: Not Found: /css/mediaquery.css
+2023-08-24 14:42:33,627 [WARNING] django.server: "GET /css/sub_mediaquery.css HTTP/1.1" 404 2659
+2023-08-24 14:42:33,628 [WARNING] django.server: "GET /css/mediaquery.css HTTP/1.1" 404 2647
+2023-08-24 14:42:33,660 [WARNING] django.request: Not Found: /js/drprivacy/jquery-ui.min.js
+2023-08-24 14:42:33,660 [WARNING] django.server: "GET /js/drprivacy/jquery-ui.min.js HTTP/1.1" 404 2680
+2023-08-24 14:42:33,680 [WARNING] django.request: Not Found: /js/searchDtPop.js
+2023-08-24 14:42:33,685 [WARNING] django.request: Not Found: /js/common.js
+2023-08-24 14:42:33,685 [WARNING] django.server: "GET /js/searchDtPop.js HTTP/1.1" 404 2644
+2023-08-24 14:42:33,688 [WARNING] django.server: "GET /js/common.js HTTP/1.1" 404 2629
+2023-08-24 14:42:33,690 [WARNING] django.request: Not Found: /js/ui.js
+2023-08-24 14:42:33,691 [WARNING] django.server: "GET /js/ui.js HTTP/1.1" 404 2617
+2023-08-24 14:42:33,710 [INFO] django.server: - Broken pipe from ('114.70.9.227', 23486)
+
+2023-08-24 14:42:34,007 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-24 14:42:34,007 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2626
+2023-08-24 16:31:57,795 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-24 16:31:58,037 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-24 16:31:58,038 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2626
+2023-08-24 16:31:58,203 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-24 16:31:58,229 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-24 16:31:58,255 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-24 16:31:58,255 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 2626
+2023-08-24 17:24:53,688 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-24 17:45:34,235 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-24 20:34:40,528 [INFO] django.server: - Broken pipe from ('167.94.146.57', 56842)
+
+2023-08-24 20:34:40,834 [INFO] django.server: code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03C?Q')
+2023-08-24 20:34:40,834 [ERROR] django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2023-08-24 20:34:42,456 [WARNING] django.request: Not Found: /
+2023-08-24 20:34:42,456 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-24 20:34:42,753 [INFO] django.server: - Broken pipe from ('167.94.146.57', 52330)
+
+2023-08-24 20:34:43,071 [WARNING] django.request: Not Found: /
+2023-08-24 20:34:43,071 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-24 20:34:43,963 [INFO] django.server: code 505, message Invalid HTTP version (2.0)
+2023-08-24 20:34:43,964 [ERROR] django.server: "PRI * HTTP/2.0" 505 -
+2023-08-25 02:26:42,373 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=0000110a-0000-1000-8000-00805f9b34fb&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 200 28
+2023-08-25 02:46:20,970 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=5e8945b0-9525-11e3-a5e2-0800200c9a66&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 200 28
+2023-08-25 04:54:05,985 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-25 04:54:06,048 [INFO] django.server: "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2023-08-25 04:54:06,061 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+2023-08-25 04:54:06,075 [INFO] django.server: "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2023-08-25 04:54:06,078 [INFO] django.server: "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2023-08-25 04:54:06,079 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+2023-08-25 04:54:06,096 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+2023-08-25 04:54:06,154 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+2023-08-25 04:54:06,277 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-25 04:54:07,130 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-25 04:54:14,490 [INFO] django.server: "GET /forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:07:02,724 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:07:39,405 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:07:39,429 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:07:42,008 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:07:47,338 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:07:47,380 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:26,336 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:26,361 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:28,483 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:08:29,317 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:29,359 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:30,693 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:08:31,515 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:31,557 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:32,794 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:08:38,369 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:38,412 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:40,296 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:08:45,184 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_te HTTP/1.1" 200 94
+2023-08-25 05:08:46,603 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:46,645 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:48,184 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_te HTTP/1.1" 200 94
+2023-08-25 05:08:49,001 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:49,043 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:49,752 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_te HTTP/1.1" 200 94
+2023-08-25 05:08:50,533 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:50,575 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:51,486 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_te HTTP/1.1" 200 94
+2023-08-25 05:08:54,579 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:08:57,057 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:57,100 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:08:58,685 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:08:59,456 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:08:59,498 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:09:00,655 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:09:03,471 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:09:03,514 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:09:18,118 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:09:20,029 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:09:20,071 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:09:21,991 [INFO] django.server: "GET //forAdmin/getBatteryData/?experimentCode=Gachon_test HTTP/1.1" 200 626
+2023-08-25 05:09:25,959 [INFO] django.server: "GET //forAdmin/getBatteryData/?experimentCode=Gachon_test HTTP/1.1" 200 626
+2023-08-25 05:09:35,529 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:09:35,575 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:09:37,777 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:09:40,656 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:09:40,699 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:09:42,543 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:09:42,585 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:09:51,602 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:09:51,645 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:14:00,919 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:14:00,943 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:14:05,500 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:14:06,790 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:14:06,839 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:14:07,970 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:14:58,128 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:14:58,171 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:15:00,977 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:15:03,462 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:15:03,505 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:15:05,262 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:15:05,836 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:15:05,879 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:15:06,846 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:15:07,301 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:15:07,342 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:17:14,826 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:17:14,850 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:17:16,945 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:17:17,707 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:17:17,749 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:17:19,142 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:17:21,936 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:17:21,984 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:17:23,275 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-25 05:17:23,709 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:17:23,752 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:17:28,763 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:17:28,806 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:17:33,462 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:17:33,504 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 05:18:36,900 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-25 05:18:36,925 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-25 10:41:10,999 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-25 17:06:16,372 [INFO] django.server: "GET /forUser/policy_response/ HTTP/1.1" 200 15699
+2023-08-25 19:18:54,645 [WARNING] django.request: Unauthorized: /forUser/registUser/
+2023-08-25 19:18:54,645 [WARNING] django.server: "GET /forUser/registUser/?userID=gc_test&deviceID=&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 401 19
+2023-08-25 19:18:57,496 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 200 28
+2023-08-25 19:19:37,825 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 200 28
+2023-08-25 19:20:02,947 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 200 28
+2023-08-25 19:20:56,066 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 200 28
+2023-08-25 19:21:53,429 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 200 28
+2023-08-25 19:22:34,803 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=&regID=1234567&timestamp=2023-08-25 HTTP/1.1" 200 28
+2023-08-25 19:24:31,991 [INFO] django.server: - Broken pipe from ('218.39.184.157', 55222)
+
+2023-08-26 02:31:17,875 [WARNING] django.request: Not Found: /
+2023-08-26 02:31:17,875 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-26 02:31:18,743 [INFO] django.server: code 505, message Invalid HTTP version (2.0)
+2023-08-26 02:31:18,744 [ERROR] django.server: "PRI * HTTP/2.0" 505 -
+2023-08-26 15:08:33,615 [WARNING] django.request: Not Found: /
+2023-08-26 15:08:33,615 [WARNING] django.server: "GET / HTTP/1.1" 404 2575
+2023-08-26 16:56:48,355 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 16:56:48,382 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 16:56:52,877 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 16:56:53,161 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 16:56:53,204 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 16:56:53,784 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 16:56:53,983 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 16:56:54,023 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 16:56:54,574 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 16:56:54,729 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 16:56:54,770 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 16:56:55,584 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 16:56:56,056 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 16:56:56,097 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 16:56:57,548 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 16:57:00,755 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 16:57:00,797 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 16:57:01,589 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 16:57:09,172 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 16:57:09,215 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 16:57:10,419 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 16:57:12,888 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 16:57:12,932 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 16:57:14,673 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:47:24,226 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:47:24,251 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:47:26,137 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:47:50,793 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:47:50,817 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:47:52,880 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:48:56,784 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:48:56,811 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:51:59,818 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:51:59,843 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:52:30,567 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:52:30,590 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:52:50,379 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:52:50,404 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:53:21,831 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:53:26,073 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:53:49,803 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:53:49,845 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:53:53,436 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:54:02,721 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:54:03,356 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:54:03,398 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:54:10,492 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:54:10,534 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:54:10,761 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:54:10,802 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:58:24,072 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:58:29,619 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:58:29,661 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:58:59,047 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 20:58:59,071 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 20:59:01,435 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 20:59:31,211 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 21:40:34,733 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 21:40:34,759 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 21:44:12,966 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 21:44:12,993 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 21:46:40,455 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 21:46:40,479 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 21:48:34,375 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 21:48:34,399 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 21:50:04,178 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 21:50:04,202 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 21:51:04,495 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 21:51:04,520 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 21:51:19,237 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 21:51:19,280 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 21:51:19,590 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 21:51:19,630 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 22:15:39,695 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 22:15:39,720 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 22:15:40,839 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-26 22:15:42,076 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-26 22:15:42,116 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-26 22:58:34,551 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-26 22:58:34,595 [INFO] django.server: "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2023-08-26 22:58:34,610 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+2023-08-26 22:58:34,627 [INFO] django.server: "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2023-08-26 22:58:34,628 [INFO] django.server: "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2023-08-26 22:58:34,629 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+2023-08-26 22:58:34,645 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+2023-08-26 22:58:34,682 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+2023-08-26 22:58:34,779 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-26 22:58:35,671 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-26 22:58:46,774 [INFO] django.server: "GET /forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 00:06:06,520 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 00:06:06,548 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 00:06:11,174 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 00:06:59,111 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 00:06:59,134 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 00:07:08,355 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:37:43,295 [INFO] django.server: "GET /swagger HTTP/1.1" 200 2149
+2023-08-27 05:37:43,339 [INFO] django.server: "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2023-08-27 05:37:43,355 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143858
+2023-08-27 05:37:43,373 [INFO] django.server: "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2023-08-27 05:37:43,373 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+2023-08-27 05:37:43,374 [INFO] django.server: "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2023-08-27 05:37:43,377 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1086481
+2023-08-27 05:37:43,382 [INFO] django.server: "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 324275
+2023-08-27 05:37:43,483 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-27 05:37:44,422 [INFO] django.server: "GET /swagger?format=openapi HTTP/1.1" 200 4807
+2023-08-27 05:37:50,215 [ERROR] django.request: Internal Server Error: /forAdmin/getSurveyRecord/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 208, in getSurveyRecord
+    startDay = datetime.datetime.strptime(userInfo[0].get('date'), "%Y%m%d")
+IndexError: list index out of range
+2023-08-27 05:37:50,216 [ERROR] django.server: "GET /forAdmin/getSurveyRecord/?experimentCode=gachon_test HTTP/1.1" 500 17856
+2023-08-27 05:37:55,976 [INFO] django.server: "GET /forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:38:38,999 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 05:38:39,023 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 05:38:49,040 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:38:56,847 [ERROR] django.request: Internal Server Error: /forAdmin/getSurveyRecord/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 208, in getSurveyRecord
+    startDay = datetime.datetime.strptime(userInfo[0].get('date'), "%Y%m%d")
+IndexError: list index out of range
+2023-08-27 05:38:56,847 [ERROR] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=gachon_test HTTP/1.1" 500 95534
+2023-08-27 05:38:56,855 [INFO] django.server: - Broken pipe from ('180.224.82.6', 30486)
+
+2023-08-27 05:40:01,239 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 05:40:01,263 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 05:40:29,108 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 05:40:29,132 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 05:40:33,164 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:40:40,581 [ERROR] django.request: Internal Server Error: /forAdmin/getSurveyRecord/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 208, in getSurveyRecord
+    startDay = datetime.datetime.strptime(userInfo[0].get('date'), "%Y%m%d")
+IndexError: list index out of range
+2023-08-27 05:40:40,582 [ERROR] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=gachon_test HTTP/1.1" 500 95534
+2023-08-27 05:40:40,593 [INFO] django.server: - Broken pipe from ('180.224.82.6', 59126)
+
+2023-08-27 05:40:45,168 [ERROR] django.request: Internal Server Error: /forAdmin/getSurveyRecord/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 208, in getSurveyRecord
+    startDay = datetime.datetime.strptime(userInfo[0].get('date'), "%Y%m%d")
+IndexError: list index out of range
+2023-08-27 05:40:45,169 [ERROR] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=gachon_test HTTP/1.1" 500 95534
+2023-08-27 05:40:45,174 [INFO] django.server: - Broken pipe from ('180.224.82.6', 30486)
+
+2023-08-27 05:40:56,044 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:40:58,780 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:41:00,709 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:41:02,644 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:41:07,375 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:41:09,305 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:41:11,121 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:41:13,033 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:42:29,540 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 05:42:29,564 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 05:42:38,759 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:42:42,304 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:43:01,121 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 05:43:01,145 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 05:43:06,352 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:43:12,813 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:43:36,192 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:45:20,978 [ERROR] django.request: Internal Server Error: /forAdmin/getSurveyRecord/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 208, in getSurveyRecord
+    startDay = datetime.datetime.strptime(userInfo[0].get('date'), "%Y%m%d")
+IndexError: list index out of range
+2023-08-27 05:45:20,979 [ERROR] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=gachon_test HTTP/1.1" 500 95534
+2023-08-27 05:45:25,820 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:56:27,078 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 05:56:27,103 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 05:56:37,779 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:58:32,170 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 05:58:32,194 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 05:58:37,555 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 05:59:13,422 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 05:59:13,450 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 05:59:17,357 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:00:54,862 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:00:54,887 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:00:58,815 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:01:57,347 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:01:57,370 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:02:02,312 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:02:27,848 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:02:27,872 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:02:32,552 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:03:03,469 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:03:03,493 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:03:07,805 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:03:39,454 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:03:49,793 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:04:21,201 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:04:21,225 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:04:26,270 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:04:41,255 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:04:41,279 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:04:47,951 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:07:17,530 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:07:17,555 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:07:22,538 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:08:05,144 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:08:05,168 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:08:10,102 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:08:13,034 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:08:15,375 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:08:17,352 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:08:19,250 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:08:21,214 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:09:15,609 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:09:15,633 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:09:20,186 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:09:27,572 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:10:37,642 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:10:37,666 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:10:42,615 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:11:57,794 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:11:57,820 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:12:03,017 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:12:05,747 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:12:08,298 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:12:10,796 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:12:13,489 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:12:16,092 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:12:47,205 [ERROR] django.request: Internal Server Error: /forAdmin/getSurveyRecord/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 208, in getSurveyRecord
+    startDay = datetime.datetime.strptime(userInfo[0].get('date'), "%Y%m%d")
+IndexError: list index out of range
+2023-08-27 06:12:47,206 [ERROR] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=gachon_test HTTP/1.1" 500 95534
+2023-08-27 06:12:47,219 [INFO] django.server: - Broken pipe from ('180.224.82.6', 62651)
+
+2023-08-27 06:12:49,856 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-27 06:12:52,474 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:12:52,516 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:12:54,132 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=Gachon_test HTTP/1.1" 200 650
+2023-08-27 06:12:57,513 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=gachon_test HTTP/1.1" 200 94
+2023-08-27 06:12:58,711 [INFO] forAdmin.views: ExperimentCode : Gachon_test
+2023-08-27 06:12:58,746 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=Gachon_test HTTP/1.1" 200 320
+2023-08-27 06:13:02,424 [INFO] forAdmin.views: ExperimentCode : gachon_test
+2023-08-27 06:13:02,461 [INFO] django.server: "GET //forAdmin/getCnt_PPG/?experimentCode=gachon_test HTTP/1.1" 200 77
+2023-08-27 06:13:04,109 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=gachon_test HTTP/1.1" 200 94
+2023-08-27 06:13:05,636 [INFO] django.server: "GET //forAdmin/getSleepRecord/?experimentCode=gachon_test HTTP/1.1" 200 94
+2023-08-27 06:13:07,990 [ERROR] django.request: Internal Server Error: /forAdmin/getSurveyRecord/
+Traceback (most recent call last):
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hyuk/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hyuk/forSurvey/DMF_ver3/forAdmin/views.py", line 208, in getSurveyRecord
+    startDay = datetime.datetime.strptime(userInfo[0].get('date'), "%Y%m%d")
+IndexError: list index out of range
+2023-08-27 06:13:07,991 [ERROR] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=gachon_test HTTP/1.1" 500 95533
+2023-08-27 06:13:14,074 [INFO] django.server: "GET //forAdmin/getSurveyRecord/?experimentCode=Gachon_test HTTP/1.1" 200 4886
+2023-08-27 06:13:40,456 [INFO] django.server: - Broken pipe from ('180.224.82.6', 62776)
+
+2023-08-27 06:13:40,457 [INFO] django.server: - Broken pipe from ('180.224.82.6', 59415)
+
+2023-08-27 12:59:55,401 [INFO] django.server: "GET /forUser/registUser/?userID=test_J&deviceID=e27b5dc3-5783-1195-2645-aeeb00ae0000&regID=1234567&timestamp=2023-08-27 HTTP/1.1" 200 26
+2023-08-27 13:00:57,673 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-27 13:00:57,685 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-27 13:01:57,545 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-27 13:01:57,546 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-27 13:02:57,445 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-27 13:02:57,452 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-27 13:04:29,710 [INFO] django.server: "GET /forUser/registUser/?userID=test_J&deviceID=e27b5dc3-5783-1195-2645-aeeb00ae0000&regID=1234567&timestamp=2023-08-27 HTTP/1.1" 200 26
+2023-08-27 13:29:48,993 [INFO] django.server: "GET /forUser/registUser/?userID=gc_test1&deviceID=0000110a-0000-1000-8000-00805f9b34fb&regID=1234567&timestamp=2023-08-27 HTTP/1.1" 200 28
+2023-08-27 13:30:41,658 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-27 13:30:41,668 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-27 13:31:41,681 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-27 13:31:41,683 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-27 13:32:41,737 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
+2023-08-27 13:32:41,742 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-27 13:33:41,778 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 42
+2023-08-27 13:33:41,778 [INFO] django.server: "POST /forUser/postCurrentData/ HTTP/1.1" 200 41
