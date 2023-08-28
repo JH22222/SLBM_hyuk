@@ -413,6 +413,11 @@ npm run dev
         get_ppg_count2에서 받은 정보들을 활용하여 정보들을 upsert함(존재하지 않으면 insert, 존재하면 update)
 ```
 
+- crontab 환경은 아래와 같이 설정한다. (파일 이동시 경로설정 수정 요망. 절대 경로로 설정해야함)
+```sh
+    10 * * * * /usr/bin/python3 /home/hyuk/forSurvey/forCron/ppg_upload.py >> /home/hyuk/forSurvey/forCron/logs_ppg_upload/$(date +\%Y_\%m_\%d_\%H).log 2>&1
+```
+
 </details>
 
 <details>
@@ -428,8 +433,139 @@ npm run dev
         설문 응답 결과를 전송
 
 ```
+- crontab 환경은 아래와 같이 설정한다. (파일 이동시 경로설정 수정 요망. 절대 경로로 설정해야함)
+```sh
+    59 11 * * * /usr/bin/python3 /home/hyuk/forSurvey/forCron/reportAsan.py >> /home/hyuk/forSurvey/forCron/logs_reportAsan/$(date +\%Y_\%m_\%d).log 2>&1
+```
+
 
 </details>
 
 #### logs_ppg_uploads : ppg_upload 실행 로그 파일 목록
 #### logs_reportAsan : reportAsan 실행 로그 파일 목록
+
+# checkDMF_ver1
+아산병원 임시 모니터링 시스템(Swagger 환경 )
+
+API 서버 환경 
+
+
+Django(https://www.djangoproject.com/)
+
+MongoDB(https://www.mongodb.com/ko-kr)
+
+
+### standard start
+
+```sh
+python3 manage.py runserver 0.0.0.0:8012
+```
+** 웹서버 포트 변경시, 해당 명령어 뒤의 '8012' 부분을 변경하여 서버 시작하면 됨
+
+### 주요 파일 설명
+<details>
+    <summary>check/views.py : 웹 요청 처리</summary>
+
+```python
+        def getDataExist(request):
+            if GET 쿼리 요청
+                userid, timestamp, key 값 추출
+                
+                키값 확인 후 인증되면
+
+                요청 날짜의 파일 리스트 반환
+        
+        def getSleepRecord(request):
+            if GET 쿼리 요청
+                userid, timestamp, key 값 추출
+
+                키값 확인 후 인증되면
+
+                요청 날짜의 수면일지 검색 후 json형태로 반환(변환 과정은 'forRun' 설명 참고)
+
+        def getSurveyRecord(request):
+            if GET 쿼리 요청
+                userid, week, key 값 추출
+
+                키값 확인 후 인증되면
+
+                요청 주차의 설문 응답 기록 검색 후 json형태로 반환(변환 과정은 'forRun' 설명 참고) 
+
+```
+</details>
+
+# forRun
+데일리 리포트 추출 스크립트
+
+### crontab 설정은 아래와 같이 한다.
+```sh
+    45 11 * * * /usr/bin/python3 /home/hyuk/forRun/makeReport.py >> /home/hyuk/forRun/logs/$(date +\%Y_\%m_\%d).log 2>&1
+```
+
+<details>
+<summary>makeReport.py : 전체 실행 파일</summary>
+
+```python
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    analysis_file = os.path.join(current_dir, 'AnalysisOnServer_New.py')
+    exec(open(analysis_file).read())                ## 데일리 리포트 추출
+    sleep_record_file = os.path.join(current_dir, 'checkSleepRecord.py')
+    exec(open(sleep_record_file).read())            ## 수면일지 응답 결과 추출
+    today_directory_file = os.path.join(current_dir, 'checkTodayDirectory.py')
+    exec(open(today_directory_file).read())         ## 어제, 오늘 디렉토리 생성 여부 확인
+    survey_file = os.path.join(current_dir, 'checkSurvey.py')
+    if datetime.datetime.now().weekday() == 2:      ## 수요일
+        exec(open(survey_file).read())              ## 설문 응답 결과 추출
+    elif datetime.datetime.now().weekday() == 1:        ## 화요일
+        exec(open(survey_file).read())
+    elif datetime.datetime.now().weekday() == 3:        ## 목요일
+        exec(open(survey_file).read())
+    elif datetime.datetime.now().weekday() == 0:        ## 월요일
+        exec(open(survey_file).read())
+```
+** 절대경로로 설정해야만 cron을 돌릴 수 있음
+
+</details>
+
+<details>
+<summary>AnalysisOnServer_New.py : 데일리 리포트 추출</summary>
+
+```python
+    def do_analysis(name):
+        name을 통해 
+    
+```
+** 절대경로로 설정해야만 cron을 돌릴 수 있음
+
+</details>
+
+<details>
+<summary>checkTodayDirectory.py : 데이터 업로드 확인용</summary>
+
+```python
+
+```
+** 절대경로로 설정해야만 cron을 돌릴 수 있음
+
+</details>
+
+<details>
+<summary>checkSurvey.py : 설문 응답 추출</summary>
+
+```python
+    
+```
+** 절대경로로 설정해야만 cron을 돌릴 수 있음
+
+</details>
+
+<details>
+<summary>checkSleepRecord.py : 수면일지 응답 추출</summary>
+
+```python
+    
+```
+** 절대경로로 설정해야만 cron을 돌릴 수 있음
+
+</details>
+
