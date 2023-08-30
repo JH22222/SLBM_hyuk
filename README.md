@@ -531,8 +531,19 @@ python3 manage.py runserver 0.0.0.0:8012
 <summary>AnalysisOnServer_New.py : 데일리 리포트 추출</summary>
 
 ```python
+
+    checkDay = datetime.datetime.now() - timedelta(days=1)              ## 검색 날짜 설정. 현재 코드는 1일 전 데이터로 추출
+
     def do_analysis(name):
-        name을 통해 
+        파라미터 name을 통해 userid를 받아옴.
+        
+        추출 기준 날짜를 checkDay(어제 날짜)로 설정.
+
+        기준일에 맞춰 HR 데이터 병합, 당일 데이터 추출, 분단위로 분절, 미착용 시간 중절, 수면 추정 시간 추출, 미착용 시간 비율 추출 진행해 dataframe으로 반환
+
+    def returnErrorResult(userID):
+        데이터가 존재하지 않을 경우 처리
+
     
 ```
 ** 절대경로로 설정해야만 cron을 돌릴 수 있음
@@ -543,6 +554,9 @@ python3 manage.py runserver 0.0.0.0:8012
 <summary>checkTodayDirectory.py : 데이터 업로드 확인용</summary>
 
 ```python
+    
+    def doCheck(userID):
+        유저 아이디를 받아와 오늘(T day)와 어제(T-1 day) 데이터 디렉토리가 존재하는지(데이터가 업로드 되었는지)를 임시적으로 확인. 
 
 ```
 ** 절대경로로 설정해야만 cron을 돌릴 수 있음
@@ -554,6 +568,10 @@ python3 manage.py runserver 0.0.0.0:8012
 
 ```python
     
+    def doCheck(userId):
+        유저 아이디를 받아와 이번주 설문 응답 기록 추출
+
+
 ```
 ** 절대경로로 설정해야만 cron을 돌릴 수 있음
 
@@ -563,9 +581,21 @@ python3 manage.py runserver 0.0.0.0:8012
 <summary>checkSleepRecord.py : 수면일지 응답 추출</summary>
 
 ```python
+
+    def doCheck(userId):
+        유저 아이디를 받아와 금일 수면일지 응답 추출
+
     
 ```
 ** 절대경로로 설정해야만 cron을 돌릴 수 있음
 
 </details>
 
+
+# forAsan
+실험 종료 후 설문, 수면일지 응답 기록 및 미응답 날짜 확인
+
+#### MergeRecords.py : 실행 파일. 내부의 'str_startDate'를 원하는 실험 시작일로 설정하면 됨
+#### MergeRecords/GetID.py : 해당 실험의 userid 가져오기
+#### MergeRecords/SleepRecordMerge.py : 해당 실험의 수면일지 병합
+#### MergeRecords/SurveyRecordMerge.py : 해당 실험의 설문 응답 병합
